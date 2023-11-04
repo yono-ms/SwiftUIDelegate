@@ -9,12 +9,21 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @State var isLoading = false
+    
     var body: some View {
         VStack {
             Image(systemName: "globe")
                 .imageScale(.large)
                 .foregroundStyle(.tint)
             Text("Hello, world!")
+            ZStack {
+                WebView(isLoading: $isLoading)
+                if isLoading {
+                    ProgressView()
+                }
+            }
         }
         .padding()
     }

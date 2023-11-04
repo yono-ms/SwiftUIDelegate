@@ -14,6 +14,7 @@
 		975FD8322AF6FB6F00142D6D /* SwiftUIDelegateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 975FD8312AF6FB6F00142D6D /* SwiftUIDelegateTests.swift */; };
 		975FD83C2AF6FB6F00142D6D /* SwiftUIDelegateUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 975FD83B2AF6FB6F00142D6D /* SwiftUIDelegateUITests.swift */; };
 		975FD83E2AF6FB6F00142D6D /* SwiftUIDelegateUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 975FD83D2AF6FB6F00142D6D /* SwiftUIDelegateUITestsLaunchTests.swift */; };
+		975FD84B2AF7002900142D6D /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 975FD84A2AF7002900142D6D /* WebView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		975FD8372AF6FB6F00142D6D /* SwiftUIDelegateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUIDelegateUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		975FD83B2AF6FB6F00142D6D /* SwiftUIDelegateUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIDelegateUITests.swift; sourceTree = "<group>"; };
 		975FD83D2AF6FB6F00142D6D /* SwiftUIDelegateUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIDelegateUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		975FD84A2AF7002900142D6D /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				975FD8202AF6FB6C00142D6D /* SwiftUIDelegateApp.swift */,
 				975FD8222AF6FB6C00142D6D /* ContentView.swift */,
+				975FD84A2AF7002900142D6D /* WebView.swift */,
 				975FD8242AF6FB6E00142D6D /* Assets.xcassets */,
 				975FD8262AF6FB6E00142D6D /* Preview Content */,
 			);
@@ -257,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				975FD84B2AF7002900142D6D /* WebView.swift in Sources */,
 				975FD8232AF6FB6C00142D6D /* ContentView.swift in Sources */,
 				975FD8212AF6FB6C00142D6D /* SwiftUIDelegateApp.swift in Sources */,
 			);
