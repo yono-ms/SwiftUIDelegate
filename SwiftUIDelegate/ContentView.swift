@@ -26,6 +26,15 @@ struct ContentView: View {
             }
         }
         .padding()
+        .onAppear {
+            print("onAppear")
+        }
+        .onDisappear {
+            print("onDisappear")
+        }
+        .task {
+            print("task start")
+        }
     }
 }
 
