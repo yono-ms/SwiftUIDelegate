@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, shrink-to-fit=YES"/>
+        <title>TEST PAGE</title>
+        <script>
+            function alertButton() {
+                alert("alert button")
+            }
+            function postMessage() {
+                showResponse("post message START")
+                webkit.messageHandlers.request.postMessage("post message TEST");
+                showResponse("post message DONE")
+            }
+            function requestNative() {
+                NativeApp.request("message")
+            }
+            function requestNative2() {
+                let array = ["element1", "element2"]
+                NativeApp.request(array)
+            }
+            function responseNative(message) {
+                showResponse(message)
+            }
+            function showResponse(response) {
+                var text = response + "<br>"
+               document.getElementById("result").insertAdjacentHTML("beforeend", text)
+            }
+        </script>
+    </head>
+    <body>
+        <input type="button" onclick="alert()" value="alert"/>
+        <button onclick="alertButton()">alert button</button>
+        <button onclick="postMessage()">post Message</button>
+        <button onclick="requestNative()">request Native</button>
+        <button onclick="requestNative2()">request Native2</button>
+        <div id="result">
+            <p>RESULT</p>
+        </div>
+    </body>
+</html>
