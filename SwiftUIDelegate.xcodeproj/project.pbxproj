@@ -15,6 +15,8 @@
 		975FD83C2AF6FB6F00142D6D /* SwiftUIDelegateUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 975FD83B2AF6FB6F00142D6D /* SwiftUIDelegateUITests.swift */; };
 		975FD83E2AF6FB6F00142D6D /* SwiftUIDelegateUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 975FD83D2AF6FB6F00142D6D /* SwiftUIDelegateUITestsLaunchTests.swift */; };
 		975FD84B2AF7002900142D6D /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 975FD84A2AF7002900142D6D /* WebView.swift */; };
+		97D8B0982B21246200B1C4F5 /* WebViewCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97D8B0972B21246200B1C4F5 /* WebViewCoordinator.swift */; };
+		97D8B09A2B21290F00B1C4F5 /* sample.html in Resources */ = {isa = PBXBuildFile; fileRef = 97D8B0992B21290F00B1C4F5 /* sample.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +48,8 @@
 		975FD83B2AF6FB6F00142D6D /* SwiftUIDelegateUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIDelegateUITests.swift; sourceTree = "<group>"; };
 		975FD83D2AF6FB6F00142D6D /* SwiftUIDelegateUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIDelegateUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		975FD84A2AF7002900142D6D /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		97D8B0972B21246200B1C4F5 /* WebViewCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewCoordinator.swift; sourceTree = "<group>"; };
+		97D8B0992B21290F00B1C4F5 /* sample.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = sample.html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,8 +103,10 @@
 				975FD8202AF6FB6C00142D6D /* SwiftUIDelegateApp.swift */,
 				975FD8222AF6FB6C00142D6D /* ContentView.swift */,
 				975FD84A2AF7002900142D6D /* WebView.swift */,
+				97D8B0972B21246200B1C4F5 /* WebViewCoordinator.swift */,
 				975FD8242AF6FB6E00142D6D /* Assets.xcassets */,
 				975FD8262AF6FB6E00142D6D /* Preview Content */,
+				97D8B0992B21290F00B1C4F5 /* sample.html */,
 			);
 			path = SwiftUIDelegate;
 			sourceTree = "<group>";
@@ -234,6 +240,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				97D8B09A2B21290F00B1C4F5 /* sample.html in Resources */,
 				975FD8282AF6FB6E00142D6D /* Preview Assets.xcassets in Resources */,
 				975FD8252AF6FB6E00142D6D /* Assets.xcassets in Resources */,
 			);
@@ -260,6 +267,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				97D8B0982B21246200B1C4F5 /* WebViewCoordinator.swift in Sources */,
 				975FD84B2AF7002900142D6D /* WebView.swift in Sources */,
 				975FD8232AF6FB6C00142D6D /* ContentView.swift in Sources */,
 				975FD8212AF6FB6C00142D6D /* SwiftUIDelegateApp.swift in Sources */,
