@@ -11,6 +11,7 @@ import SwiftUI
 struct ContentView: View {
     
     @State var isLoading = false
+    @State var location = ""
     
     var body: some View {
         VStack {
@@ -18,6 +19,19 @@ struct ContentView: View {
                 .imageScale(.large)
                 .foregroundStyle(.tint)
             Text("Hello, world!")
+            Button("get location") {
+                Task {
+                    do {
+                        let result = try await AppLocation.shared.getLocation()
+                        let latitude = result.coordinate.latitude
+                        let longitude = result.coordinate.longitude
+                        location = "\(latitude), \(longitude)"
+                    } catch {
+                        debugPrint("error")
+                    }
+                }
+            }
+            Text(location)
             ZStack {
                 WebView(isLoading: $isLoading)
                 if isLoading {
