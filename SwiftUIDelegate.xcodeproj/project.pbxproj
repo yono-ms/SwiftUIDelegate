@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		970C3EF62B2920FC00E6002F /* AppLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 970C3EF52B2920FC00E6002F /* AppLocation.swift */; };
 		975FD8212AF6FB6C00142D6D /* SwiftUIDelegateApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 975FD8202AF6FB6C00142D6D /* SwiftUIDelegateApp.swift */; };
 		975FD8232AF6FB6C00142D6D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 975FD8222AF6FB6C00142D6D /* ContentView.swift */; };
 		975FD8252AF6FB6E00142D6D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 975FD8242AF6FB6E00142D6D /* Assets.xcassets */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		970C3EF52B2920FC00E6002F /* AppLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppLocation.swift; sourceTree = "<group>"; };
 		975FD81D2AF6FB6C00142D6D /* SwiftUIDelegate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIDelegate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		975FD8202AF6FB6C00142D6D /* SwiftUIDelegateApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIDelegateApp.swift; sourceTree = "<group>"; };
 		975FD8222AF6FB6C00142D6D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -104,6 +106,7 @@
 				975FD8222AF6FB6C00142D6D /* ContentView.swift */,
 				975FD84A2AF7002900142D6D /* WebView.swift */,
 				97D8B0972B21246200B1C4F5 /* WebViewCoordinator.swift */,
+				970C3EF52B2920FC00E6002F /* AppLocation.swift */,
 				975FD8242AF6FB6E00142D6D /* Assets.xcassets */,
 				975FD8262AF6FB6E00142D6D /* Preview Content */,
 				97D8B0992B21290F00B1C4F5 /* sample.html */,
@@ -270,6 +273,7 @@
 				97D8B0982B21246200B1C4F5 /* WebViewCoordinator.swift in Sources */,
 				975FD84B2AF7002900142D6D /* WebView.swift in Sources */,
 				975FD8232AF6FB6C00142D6D /* ContentView.swift in Sources */,
+				970C3EF62B2920FC00E6002F /* AppLocation.swift in Sources */,
 				975FD8212AF6FB6C00142D6D /* SwiftUIDelegateApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -436,6 +440,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftUIDelegate/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This app use location.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -464,6 +469,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftUIDelegate/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This app use location.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
